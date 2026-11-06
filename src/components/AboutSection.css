@@ -1,0 +1,98 @@
+
+.about-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 65px;
+  margin-top: 45px;
+}
+
+.about-description h3 {
+  font-family: "Playfair Display", serif;
+  color: #173e70;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.about-description h3 span {
+  color: #b9944c;
+  display: block;
+}
+
+.about-description p {
+  font-size: 13px;
+  line-height: 1.9;
+  color: #718198;
+}
+
+.about-resume {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 12px 20px;
+  border: 1px solid #b9944c;
+  color: #173e70;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.about-highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about-info-card {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  background: white;
+  padding: 22px;
+  border: 1px solid #e2eaf2;
+  border-radius: 12px;
+  transition: .3s;
+}
+
+.about-info-card:hover {
+  transform: translateX(8px);
+  border-color: #b9944c;
+}
+
+.about-info-card > svg {
+  color: #b9944c;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.about-info-card small {
+  color: #b9944c;
+  letter-spacing: 2px;
+  font-size: 9px;
+}
+
+.about-info-card h4 {
+  color: #173e70;
+  font-size: 13px;
+  margin: 7px 0;
+}
+
+.about-info-card p,
+.about-info-card strong {
+  font-size: 11px;
+  color: #718198;
+  margin: 4px 0;
+  display: block;
+}
+
+@media(max-width:768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}

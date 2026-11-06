@@ -1,0 +1,41 @@
+
+.portfolio-footer {
+  background: #0c284b;
+  padding: 25px 0;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.footer-brand {
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.footer-brand span {
+  color: #c5a45d;
+}
+
+.footer-inner p {
+  font-size: 10px;
+  color: #aebed0;
+}
+
+.footer-top {
+  color: #e0c58e;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+@media(max-width:600px) {
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
